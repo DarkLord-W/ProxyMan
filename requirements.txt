@@ -1,5 +1,4 @@
 argparse
-os
 random
 sqlite3
 threading
