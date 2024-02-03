@@ -129,3 +129,11 @@ Command:(start/stop) stop
 
 进程已结束,退出代码0
 ```
+
+---
+
+**顺便一提，强烈推荐在linux下运行，kali下即可，开盖即食哦**
+
+---
+
+**并且，不得不提，FUCK YOU --- Windows !!!**

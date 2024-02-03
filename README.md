@@ -131,3 +131,15 @@ Command:(start/stop) stop
 
 进程已结束,退出代码0
 ```
+
+---
+
+**By the way, it is highly recommended to run it under linux.**
+
+**just download it from kali.**
+
+**and it is ready to eat after opening the lid.**
+
+---
+
+**And, I have to mention, FUCK YOU --- Windows!!!**
