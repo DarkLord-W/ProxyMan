@@ -136,10 +136,10 @@ Command:(start/stop) stop
 
 **By the way, it is highly recommended to run it under linux.**
 
-**just download it from kali.**
+**kali is fine.**
 
-**and it is ready to eat after opening the lid.**
+**and it is ready to eat after opening the lid.  LOL**
 
 ---
 
-**And, I have to mention, FUCK YOU --- Windows!!!**
+**And, I have to say, FUCK YOU --- Windows!!!**
