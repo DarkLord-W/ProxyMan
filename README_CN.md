@@ -1,24 +1,22 @@
 # ProxyMan
 
-Automated rotation proxy forwarding tool
-
-[中文版](./README_CN.md)
+自动轮换代理转发工具
 
 ---
 
-1.Download repository
+1.下载仓库
 
 ```git
 git clone https://github.com/DarkLord-W/ProxyMan.git
 ```
 
-2.Install required  libraries
+2.安装所需库
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3.Run program
+3.运行程序
 
 ```python
 ❯ python main.py -h
@@ -83,32 +81,32 @@ socks5://XX.128.XX.177:1080
 Current proxy: socks5://45.XXX.67.XX2:7777
 ```
 
-At this point, the agent program has successfully obtained the agent data and started the corresponding data monitoring and forwarding service.
+至此，代理程序已经成功获取到代理数据并启动相应数据监听转发服务
 
 ---
 
-Set the proxy in the program that needs proxy, the format is as follows:
+在需要进行代理的程序中设置代理，格式如下：
 
 ```
-socks5://agent IP: listening port
+socks5://代理程序IP:监听端口
 ```
 
-For example, in this project, `test_requets.py` is used for testing:
+如本项目中，用于测试的`test_requets.py`:
 
 ```python
-# Set proxy host ip
+# 设置代理主机ip
 proxy_host = '127.0.0.1'
-# The listening port of the agent to connect to
+# 要连接到的代理程序的监听端口
 proxy_port = 5678
 
-# Set proxy type to SOCKS5
+# 设置代理类型为 SOCKS5
 proxies = {
     'http': f'socks5://{proxy_host}:{proxy_port}',
     'https': f'socks5://{proxy_host}:{proxy_port}'
 }
 ```
 
-Run `test_requets.py`:
+运行`test_requets.py`:
 
 ```python
 python test_requets.py 
@@ -125,7 +123,7 @@ URL: http://myip.ipip.net/
 Command:(start/stop) start
 URL: http://myip.ipip.net/
 成功获取页面内容:
-当前 IP：xx.128.xx.177  来自于：中国 香港   tencent.com
+当前 IP：xx.128.xx.1xx  来自于：中国 香港   tencent.com
 
 Command:(start/stop) stop
 
